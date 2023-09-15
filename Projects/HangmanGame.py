@@ -28,7 +28,7 @@ def play():
             print(logo)
             print(f"You have guessed wrong and lost one life(Lives - {lives})\n{str}")
             c = True
-        print(chosen_word)
+        # print(chosen_word)
         ch = input("\nGuess the words -> ")
         if(len(ch)>0):
             ch = ch[0]
